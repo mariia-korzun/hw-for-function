@@ -6,7 +6,7 @@ It should accept two arguments and returns true if first one has greater value t
 Tip: no need for if/else clause nor ternary operator
 
 For example: 
-isBigger(5, -1); // => true
+`isBigger(5, -1); // => true`
 
 
 Task #2
