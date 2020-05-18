@@ -105,23 +105,3 @@ isLeapYear('2200-01-15 13:00:00'); // =>  ‘2200 is not a leap year’
 isLeapYear(1213131313135465656654564646542132132131); // =>  ‘Invalid Date’
 isLeapYear(1213131313); ); // => ‘1970 is not a leap year’
 ```
-
-
-
-
-
-
-RESTRICTIONS
--	Usage of Math object is forbidden;
-
-BEFORE SUBMIT
--	Verify that all functionality is implemented according to requirements;
--	Format your code (remove redundant spaces, lines of code etc.);
--	Validate code via eslint;
--	Add comments if necessary, delete non-relevant comments;
--	In order to use npm you should install nodejs (https://nodejs.org/ );
--	Install eslint to check your code (npm install -g eslint);
--	open a terminal (or cmd);
--	go to src folder;
--	run eslint;
--	Code should be without ‘errors’;
