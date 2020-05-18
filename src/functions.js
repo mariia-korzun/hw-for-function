@@ -8,7 +8,7 @@ const isSmaller = (a, b) => {
   return;
 };
 
-const getMin = (arguments) => {
+function getMin(arguments) {
   // Your implementation here
   return;
 };
@@ -28,7 +28,7 @@ const isLeapYear = (data) => {
   return;
 };
 
-const pipe=(numbers)=>{
+function(numbers) {
   // Your implementation here
   return;
 }
