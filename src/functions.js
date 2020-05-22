@@ -1,44 +1,37 @@
 const isBigger = (a, b) => {
   // Your implementation here
-  return;
 };
 
 const isSmaller = (a, b) => {
   // Your implementation here
-  return;
 };
 
-function getMin(arguments) {
+function getMin(...numbers) {
   // Your implementation here
-  return;
-};
+}
 
 const makeNumber = (string) => {
   // Your implementation here
-  return;
 };
 
 const countNumber = (string) => {
   // Your implementation here
-  return;
 };
 
-const isLeapYear = (data) => {
+const isLeapYear = (date) => {
   // Your implementation here
-  return;
 };
 
-function(numbers) {
-  // Your implementation here
-  return;
+function pipe(number, functions) {
+  // Your implementation her
 }
 
 module.exports = {
   isBigger,
   isSmaller,
-  isLeapYear,
   makeNumber,
   countNumber,
   getMin,
-  pipe
+  pipe,
+  isLeapYear,
 };

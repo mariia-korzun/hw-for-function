@@ -16,6 +16,8 @@ describe('isBigger', () => {
   it(`Should accept two arguments and returns true
     if first one has greater value than second one or false otherwise.`, () => {
     expect(isBigger(5, -1)).to.eql(true);
+    expect(isBigger(2, 0)).to.eql(true);
+    expect(isBigger(0, 2)).to.eql(false);
   });
 });
 
@@ -23,6 +25,8 @@ describe('isSmaller', () => {
   it(`Should accept two arguments and returns true if first one has 
   lesser value than second one or false otherwise`, () => {
     expect(isSmaller(5, -1)).to.eql(false);
+    expect(isSmaller(-1, 5)).to.eql(true);
+    expect(isSmaller(0, 5)).to.eql(true);
   });
 });
 
@@ -30,6 +34,7 @@ describe('getMin', () => {
   it(`Should accept arbitrary number of integer arguments 
   and returns the one with the smallest value.`, () => {
     expect(getMin(3, 0, -3)).to.eql(-3);
+    expect(getMin(3, 0, -3, 5, -10)).to.eql(-10);
   });
 });
 
