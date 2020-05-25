@@ -28,7 +28,7 @@ describe('isSmaller', () => {
     expect(isSmaller(5, -1)).to.eql(false);
   });
   it(`Result should be typeof Boolean.`, () => {
-    expect(isBigger(5, -1)).to.be.a('boolean');
+    expect(isSmaller(5, -1)).to.be.a('boolean');
   });
 });
 
@@ -48,7 +48,7 @@ describe('makeNumber', () => {
     expect(makeNumber('erer384jjjfd123')).to.eql('384123');
   });
   it(`Result should be typeof String.`, () => {
-    expect(getMin('erer384jjjfd123')).to.be.a('string');
+    expect(makeNumber('erer384jjjfd123')).to.be.a('string');
   });
 });
 
@@ -60,7 +60,7 @@ describe('countNumber', () => {
     expect(countNumber('')).to.eql({});
   });
   it(`Result should be typeof Object.`, () => {
-    expect(getMin('')).to.be.an('object');
+    expect(countNumber('')).to.be.an('object');
   });
 });
 
@@ -72,7 +72,7 @@ describe('pipe', () => {
     expect(pipe(1, addOne)).to.eql(2);
   });
   it(`Result should be typeof Number.`, () => {
-    expect(getMin(1, addOne)).to.be.a('number');
+    expect(pipe(1, addOne)).to.be.a('number');
   });
 });
 
@@ -103,6 +103,6 @@ describe('isLeapYear', () => {
         .to.eql('Invalid Date');
   });
   it(`Result should be typeof String.`, () => {
-    expect(getMin('2020-01-01 00:00:00777')).to.be.a('string');
+    expect(isLeapYear('2020-01-01 00:00:00777')).to.be.a('string');
   });
 });
