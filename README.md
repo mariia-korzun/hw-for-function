@@ -73,6 +73,7 @@ countNumbers(''); // => {}
 Task #6
 Write a function - pipe
 It should accept a number as a first argument and arbitrary amount of functions after. The number should be passed to each function in sequence. The number passed to the next function is the returned result of previous function.
+You don't have to write function 'addOne', just pass it like in the example.
 
 Tip: you need to use arguments to access all passed functions
 
