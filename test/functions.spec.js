@@ -60,7 +60,7 @@ describe('countNumber', () => {
     expect(countNumber('')).to.eql({});
   });
   it(`Result should be typeof Object.`, () => {
-    expect(getMin({})).to.be.an('object');
+    expect(getMin('')).to.be.an('object');
   });
 });
 
