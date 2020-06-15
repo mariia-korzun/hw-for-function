@@ -2,41 +2,42 @@
 
 
 	
-Install Node.js
+**Install Node.js**
 
-Fork this repository
+    1. Fork this repository
+    
+    2. Clone your newly created repo
+    
+    3. Go to project folder
+    
+    4. Install all dependencies (use npm install)
+    
+    5. To run tests you should change script "test" to "mocha"
+    
+    6. Run npm test in the command line
+    
+    7. You will see the number of passing and failing tests
 
-Clone your newly created repo
-
-Go to project folder
-
-Install all dependencies (use npm install)
-
-To run tests you should change script "test" to "mocha"
-
-Run npm test in the command line
-
-You will see the number of passing and failing tests
-
-!!!!!!!!!!Don't forget to change this script back to "npm run test:junit" before commit!!!!!!!!
+**!!!!!!!!!!Don't forget to change this script back to "npm run test:junit" before commit!!!!!!!!**
 
 
-Submit to AutoCode
+**Submit to AutoCode**
 
 	
-Open AutoCode and login
-
-Go to your course
-
-Select your task
-
-Submit your solution to Autocode
-
-
-Notes
+    1. Open AutoCode and login
+    
+    3. Go to your course
+    
+    3. Select your task
+    
+    4. Submit your solution to Autocode
 
 
-We recommend you to use nodejs of version 12 or lower. If you using are any of the features which are not supported by v12, the score won't be submitted.
+**Notes**
+
+
+We recommend you to use nodejs of version 12 or lower. If you using are any of the 
+features which are not supported by v12, the score won't be submitted.
 Each of your test case is limited to 30 sec.
 
 
