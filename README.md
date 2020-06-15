@@ -5,11 +5,17 @@
 Install Node.js
 
 Fork this repository
+
 Clone your newly created repo
+
 Go to project folder
+
 Install all dependencies (use npm install)
+
 To run tests you should change script "test" to "mocha"
+
 Run npm test in the command line
+
 You will see the number of passing and failing tests
 
 !!!!!!!!!!Don't forget to change this script back to "npm run test:junit" before commit!!!!!!!!
@@ -19,8 +25,11 @@ Submit to AutoCode
 
 	
 Open AutoCode and login
+
 Go to your course
+
 Select your task
+
 Submit your solution to Autocode
 
 
@@ -34,6 +43,7 @@ Each of your test case is limited to 30 sec.
 # HW-for-Function 
 
 Task #1
+
 Write a function - isBigger
 It should accept two arguments and returns true if first one has greater value than second one or false otherwise. 
 Tip: no need for if/else clause nor ternary operator
@@ -43,6 +53,7 @@ For example:
 
 
 Task #2
+
 Write a function - isSmaller
 It should accept two arguments and returns true if first one has lesser value than second one or false otherwise. 
 Tip: consider reusing isBigger function
@@ -54,6 +65,7 @@ For example:
 
 
 Task #3
+
 Write a function - getMin
 It should accept arbitrary number of integer arguments and returns the one with the smallest value.
 Tip: since arguments is like array, you can use simple iteration over it
@@ -66,6 +78,7 @@ For example:
 
 
 Task #4	
+
 Write function – makeNumber
 It should accept a string with different symbols and return string of numbers from passed argument.
 
@@ -83,6 +96,7 @@ makeNumber('ijifjgdj'); //=> should return empty string ->''
 
 
 Task #5
+
 Write a function - countNumbers
 It should accept string with different symbols and return object which contains counts of each numbers.
 
@@ -104,6 +118,7 @@ countNumbers(''); // => {}
 
 
 Task #6
+
 Write a function - pipe
 It should accept a number as a first argument and arbitrary amount of functions after. The number should be passed to each function in sequence. The number passed to the next function is the returned result of previous function.
 You don't have to write function 'addOne', just pass it like in the example.
@@ -123,6 +138,7 @@ pipe(1, addOne, addOne); //=> 3
 
 
 Task #7
+
 Write a function - isLeapYear
 It should accept a number of millisecond or string of date as an argument. This function checks if passed argument is a Leap Year. If it is a Leap Year, function should return a string – ‘ “year” is a leap year’ and if it isn’t, should return string - ‘ “year” is not a leap year’.(‘year’ means number of year passed as an argument)
 Passed argument should be in an appropriate format (which will be valid for Date object).
