@@ -3,30 +3,32 @@
 
 	
 Install Node.js
-	Fork this repository
-	Clone your newly created repo
-	Go to folder of project
-	To install all dependencies use npm install
-	Run npm test in the command line
-	You will see the number of passing and failing tests
+
+Fork this repository
+Clone your newly created repo
+Go to project folder
+Install all dependencies (use npm install)
+To run tests you should change script "test" to "mocha"
+Run npm test in the command line
+You will see the number of passing and failing tests
+
+!!!!!!!!!!Don't forget to change this script back to "npm run test:junit" before commit!!!!!!!!
 
 
 Submit to AutoCode
 
-
 	
 Open AutoCode and login
-	Subscribe to JavaScript Mentoring | JavaScript PreScreening
-	Select your task (JavaScript PreScreening Tasks)
-	Submit your solution to Autocode
+Go to your course
+Select your task
+Submit your solution to Autocode
 
 
 Notes
 
 
-	
 We recommend you to use nodejs of version 12 or lower. If you using are any of the features which are not supported by v12, the score won't be submitted.
-	Each of your test case is limited to 30 sec.
+Each of your test case is limited to 30 sec.
 
 
 # HW-for-Function 
