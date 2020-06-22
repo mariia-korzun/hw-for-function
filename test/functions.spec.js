@@ -4,7 +4,7 @@ const isBigger = functions.isBigger;
 const isSmaller = functions.isSmaller;
 const getMin = functions.getMin;
 const makeNumber = functions.makeNumber;
-const countNumber = functions.countNumber;
+const countNumbers = functions.countNumbers;
 const pipe = functions.pipe;
 const isLeapYear = functions.isLeapYear;
 
@@ -52,15 +52,15 @@ describe('makeNumber', () => {
   });
 });
 
-describe('countNumber', () => {
+describe('countNumbers', () => {
   it(`Should accept string with different symbols and 
   return object which contains counts of each numbers.`, () => {
-    expect(countNumber('erer384jj4444666888jfd123'))
+    expect(countNumbers('erer384jj4444666888jfd123'))
         .to.eql({'1': 1, '2': 1, '3': 2, '4': 5, '6': 3, '8': 4});
-    expect(countNumber('')).to.eql({});
+    expect(countNumbers('')).to.eql({});
   });
   it(`Result should be typeof Object.`, () => {
-    expect(countNumber('')).to.be.an('object');
+    expect(countNumbers('')).to.be.an('object');
   });
 });
 

@@ -14,23 +14,24 @@ const makeNumber = (string) => {
   // Your implementation here
 };
 
-const countNumber = (string) => {
+const countNumbers = (string) => {
   // Your implementation here
 };
+
+function pipe(number, ...functions) {
+  // Your implementation her
+}
 
 const isLeapYear = (date) => {
   // Your implementation here
 };
 
-function pipe(number, functions) {
-  // Your implementation her
-}
 
 module.exports = {
   isBigger,
   isSmaller,
   makeNumber,
-  countNumber,
+  countNumbers,
   getMin,
   pipe,
   isLeapYear,
