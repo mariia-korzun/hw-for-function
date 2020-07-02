@@ -59,7 +59,7 @@ describe('pipe', () => {
   function in sequence. The number passed to the next function 
   is the returned result of previous function.`, () => {
     expect(pipe(1, addOne)).to.eql(2);
-    expect(pipe(1, addOne, addOne)).to.eql(2);
+    expect(pipe(1, addOne, addOne)).to.eql(3);
   });
 });
 
