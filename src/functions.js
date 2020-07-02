@@ -1,8 +1,8 @@
-const isBigger = (a, b) => {
+function isBigger(a, b) {
   // Your implementation here
 };
 
-const isSmaller = (a, b) => {
+function isSmaller(a, b) {
   // Your implementation here
 };
 
@@ -10,11 +10,11 @@ function getMin(...numbers) {
   // Your implementation here
 }
 
-const makeNumber = (string) => {
+function makeNumber(string) {
   // Your implementation here
 };
 
-const countNumbers = (string) => {
+function countNumbers(string) {
   // Your implementation here
 };
 
@@ -22,7 +22,7 @@ function pipe(number, ...functions) {
   // Your implementation her
 }
 
-const isLeapYear = (date) => {
+function isLeapYear(date) {
   // Your implementation here
 };
 
