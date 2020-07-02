@@ -2,8 +2,8 @@
 
 ## TASK № 1
 
-### Write a function - isBigger. It should accept two arguments and returns true if first one has greater value than second one or false otherwise. 
-### *Tip*: no need for if/else clause nor ternary operator
+### Create a function called “isBigger”. It should accept two arguments and return “true” if the first one has greater value than the second one. Otherwise it should return false. 
+### *Tip*: no need for if/else statement or ternary operator.
 
 ### For example: 
 ```
@@ -13,8 +13,8 @@ isBigger(5, -1); // => true
 
 ## TASK № 2
 
-### Write a function - isSmaller. It should accept two arguments and returns true if first one has lesser value than second one or false otherwise. 
-### *Tip*: consider reusing isBigger function
+### Create a function called “isSmaller”. It should accept two arguments and return “true” if the first one has lesser value than the second one. Otherwise it should return false. 
+### *Tip*: consider reusing isBigger function.
 
 ### For example: 
 ```
@@ -24,8 +24,8 @@ isSmaller(5 -1); //=> false
 
 ## TASK № 3
 
-### Write a function - getMin. It should accept arbitrary number of integer arguments and returns the one with the smallest value.
-### *Tip*: since arguments is like array, you can use simple iteration over it and use arguments[ i ] to get the argument of a given index
+### Create a function called “getMin”. It should accept arbitrary number of integer arguments and return the one with the smallest value.
+### *Tip*: since arguments is similar to array, you can use simple iteration over it and use arguments[ i ] to get the argument of a given index.
 
 ### For example: 
 ```
@@ -35,7 +35,7 @@ getMin(3, 0, -3); //=> -3
 
 ## TASK № 4
 
-### Write function – makeNumber. It should accept a string with different symbols and return string of numbers from passed argument.
+### Create a function called “makeNumber”. It should accept a string with different characters and return a string of numbers from the passed argument.
 
 ### For example:
 ```
@@ -49,9 +49,8 @@ makeNumber('ijifjgdj'); //=> should return empty string ->''
 
 ## TASK № 5
 
-### Write a function - countNumbers. It should accept string with different symbols and return object which contains counts of each numbers.
-
-### *Tip*: consider reusing makeNumber function 
+### Create a function called “countNumbers”. It should accept a string with different characters and return an object which contains a count of each number.
+### *Tip*: consider reusing makeNumber function.
 
 ### For example: 
 ```
@@ -67,9 +66,8 @@ countNumbers(''); // => {}
 
 ## TASK № 6
 
-### Write a function - pipe. It should accept a number as a first argument and arbitrary amount of functions after. The number should be passed to each function in sequence. The number passed to the next function is the returned result of previous function. You don't have to write function 'addOne', just pass it like in the example.
-
-### *Tip*: you need to use arguments to access all passed functions
+### Create a function called “pipe”. It should accept a number as a first argument and arbitrary amount of functions. The number should be passed to each function in sequence. The number passed to the next function is the returned result of the previous function. You don't have to write the function 'addOne', just pass it like in the example.
+### *Tip*: you need to use “arguments” to access all passed functions.
 
 ### For example: 
 ```
@@ -84,9 +82,8 @@ pipe(1, addOne, addOne); //=> 3
 
 ## TASK № 7
 
-### Write a function - isLeapYear. It should accept a number of millisecond or string of date as an argument. This function checks if passed argument is a Leap Year. If it is a Leap Year, function should return a string – ‘ “year” is a leap year’ and if it isn’t, should return string - ‘ “year” is not a leap year’.(‘year’ means number of year passed as an argument). Passed argument should be in an appropriate format (which will be valid for Date object). In case when passed invalid argument, function should return string 'Invalid Date'.
-
-### *Tip*: need to use Date object here
+### Create a function called “isLeapYear”. It should accept a number of millisecond or a string of date as an argument. This function checks if a passed argument is a Leap Year. If it is a Leap Year, function should return a following string: ‘ “year” is a leap year’. If it isn’t, function should return a following string: ‘ “year” is not a leap year’.(‘year’ means a year that was passed as an argument). Passed argument should be in an appropriate format (valid Date object). In case passed argument is invalid, function should return a following string: 'Invalid Date'.
+### *Tip*: need to use Date object here.
 
 ### For example: 
 ```
