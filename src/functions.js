@@ -1,30 +1,50 @@
 function isBigger(a, b) {
-  // Your implementation here
+  return a > b
 };
 
 function isSmaller(a, b) {
-  // Your implementation here
+  return !isBigger(a, b)
 };
 
 function getMin(...numbers) {
-  // Your implementation here
+  return Math.min(...numbers)
 }
 
 function makeNumber(string) {
-  // Your implementation here
+  return (string.match(/\d/g) || []).join('')
 };
 
 function countNumbers(string) {
-  // Your implementation here
+  string = makeNumber(string)
+  let result = {}
+  while (string.length > 0) {
+    let regExp = new RegExp(`${string[0]}`, 'g')
+    let array = string.match(regExp)
+    result[array[0]] = array.length
+    string = string.split(array[0]).join('')
+  }
+  return result
 };
+
 
 function pipe(number, ...functions) {
-  // Your implementation her
+  functions.forEach(func => number = func(number))
+  return number
 }
 
+
+
 function isLeapYear(date) {
-  // Your implementation here
-};
+  let dateLeap = new Date(date)
+  if (isNaN(dateLeap)) { return 'Invalid Date' }
+  let year = dateLeap.getFullYear()
+  if ((year % 4 == 0) && ((year % 100 != 0) || (year % 400 == 0))) {
+    return `${year} is a leap year`
+  }else{
+    return `${year} is not a leap year`
+  }
+}
+
 
 
 module.exports = {
