@@ -1,10 +1,10 @@
 function isBigger(a, b) {
   return a > b
-};
+}
 
 function isSmaller(a, b) {
   return !isBigger(a, b)
-};
+}
 
 function getMin(...numbers) {
   return Math.min(...numbers)
@@ -12,7 +12,7 @@ function getMin(...numbers) {
 
 function makeNumber(string) {
   return (string.match(/\d/g) || []).join('')
-};
+}
 
 function countNumbers(string) {
   string = makeNumber(string)
@@ -24,15 +24,12 @@ function countNumbers(string) {
     string = string.split(array[0]).join('')
   }
   return result
-};
-
+}
 
 function pipe(number, ...functions) {
   functions.forEach(func => number = func(number))
   return number
 }
-
-
 
 function isLeapYear(date) {
   let dateLeap = new Date(date)
@@ -44,8 +41,6 @@ function isLeapYear(date) {
     return `${year} is not a leap year`
   }
 }
-
-
 
 module.exports = {
   isBigger,
